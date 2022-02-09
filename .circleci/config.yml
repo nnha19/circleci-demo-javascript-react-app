@@ -1,20 +1,11 @@
 
 jobs:
-2
   test:
-3
    steps:
-4
      -checkout
-5
      -run:
-6
         name: i dependencies
-7
         command: npm install
-8
      -run:
-9
         name: Run tests
-10
         command: npm run test
